@@ -1,3 +1,9 @@
+# revision 21296
+# category Package
+# catalog-ctan /macros/latex/contrib/isomath
+# catalog-date 2011-02-02 19:41:03 +0100
+# catalog-license lppl
+# catalog-version 0.5
 Name:		texlive-isomath
 Version:	0.5
 Release:	1
@@ -47,6 +53,7 @@ ISO 31.
 %doc %{_texmfdistdir}/doc/latex/isomath/isomath.sty.html
 %doc %{_texmfdistdir}/doc/latex/isomath/isomath.sty.txt
 %doc %{_texmfdistdir}/doc/latex/isomath/isomath.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ ISO 31.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
