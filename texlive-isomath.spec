@@ -1,13 +1,13 @@
-# revision 27654
+# revision 21296
 # category Package
 # catalog-ctan /macros/latex/contrib/isomath
-# catalog-date 2012-09-12 18:41:18 +0200
+# catalog-date 2011-02-02 19:41:03 +0100
 # catalog-license lppl
-# catalog-version 0.6.1
+# catalog-version 0.5
 Name:		texlive-isomath
-Version:	0.6.1
-Release:	1
-Summary:	Mathematics style for science and technology
+Version:	0.5
+Release:	2
+Summary:	Mathematics "for scientists" (conformant to ISO 31)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isomath
 License:	LPPL
@@ -19,13 +19,10 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The package provides tools for a mathematical style that
-conforms to the International Standard ISO 80000-2 and is
-common in science and technology. It changes the default shape
-of capital Greek letters to italic, sets up bold italic and
-sans-serif bold italic math alphabets with Latin and Greek
-characters, and defines macros for markup of vector, matrix and
-tensor symbols.
+The isomath package enables formatting Greek and Latin letters
+as symbols for vectors, matrices, and tensors in the typefaces
+recommended for scientific papers by the International Standard
+ISO 31.
 
 %post
     %{_sbindir}/texlive.post
@@ -57,3 +54,17 @@ tensor symbols.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.5-2
++ Revision: 752811
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.5-1
++ Revision: 718738
+- texlive-isomath
+- texlive-isomath
+- texlive-isomath
+- texlive-isomath
+
