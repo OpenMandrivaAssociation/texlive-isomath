@@ -6,7 +6,7 @@
 # catalog-version 0.5
 Name:		texlive-isomath
 Version:	0.5
-Release:	2
+Release:	3
 Summary:	Mathematics "for scientists" (conformant to ISO 31)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isomath
