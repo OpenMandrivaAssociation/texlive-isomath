@@ -6,7 +6,7 @@
 # catalog-version 0.6.1
 Name:		texlive-isomath
 Version:	0.6.1
-Release:	7
+Release:	8
 Summary:	Mathematics style for science and technology
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isomath
