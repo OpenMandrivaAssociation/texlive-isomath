@@ -1,6 +1,6 @@
 Name:		texlive-isomath
 Version:	27654
-Release:	1
+Release:	2
 Summary:	Mathematics style for science and technology
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isomath
