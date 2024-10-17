@@ -3,7 +3,7 @@ Version:	27654
 Release:	2
 Summary:	Mathematics style for science and technology
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isomath
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/isomath
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/isomath.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/isomath.doc.r%{version}.tar.xz
